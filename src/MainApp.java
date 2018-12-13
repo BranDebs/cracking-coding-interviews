@@ -11,10 +11,15 @@ public class MainApp {
 //        ch1.qns6.run();
 //        ch1.qns7.run();
 //        ch1.qns8.run();
-        qns9.run();
+//        qns9.run();
+    }
+
+    public static void runCh2() {
+        ch2.qns1.run();
     }
 
     public static void main(String[] args) {
-
+//        runCh1();
+        runCh2();
     }
 }
