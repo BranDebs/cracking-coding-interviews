@@ -15,7 +15,8 @@ public class MainApp {
     }
 
     public static void runCh2() {
-        ch2.qns1.run();
+//        ch2.qns1.run();
+        ch2.qns2.run();
     }
 
     public static void main(String[] args) {
