@@ -22,6 +22,10 @@ public class MainApp {
         ch2.qns8.run();
     }
 
+    public static void runCh3() {
+        
+    }
+
     public static void main(String[] args) {
 //        runCh1();
         runCh2();
