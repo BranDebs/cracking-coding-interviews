@@ -25,6 +25,7 @@ public class qns3 {
         deleteMiddle(middle);
         System.out.println("After: ");
         LinkedListUtils.printList(head);
+        System.out.println("Answer should be 6 5 4 2 1.");
 
         System.out.println("=========================== ");
 
@@ -40,5 +41,7 @@ public class qns3 {
         deleteMiddle(middle);
         System.out.println("After: ");
         LinkedListUtils.printList(head);
+        System.out.println("Answer should be 1 1 1 1.");
+
     }
 }

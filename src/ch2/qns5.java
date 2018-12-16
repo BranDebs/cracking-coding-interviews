@@ -57,6 +57,7 @@ public class qns5 {
         System.out.print(" + ");
         LinkedListUtils.printList(head2);
         System.out.print(" = " + ans);
+        System.out.println("Answer should be 912.");
 
         System.out.println("=========================== ");
         System.out.println("Digits stored in Normal Order");
@@ -73,7 +74,7 @@ public class qns5 {
         System.out.print(" + ");
         LinkedListUtils.printList(head2);
         System.out.print(" = " + ans);
-
+        System.out.println("Answer should be 6.");
         System.out.println("=========================== ");
         System.out.println("Digits stored in Normal Order");
 
@@ -92,5 +93,6 @@ public class qns5 {
         System.out.print(" + ");
         LinkedListUtils.printList(head2);
         System.out.print(" = " + ans);
+        System.out.println("Answer should be 100000.");
     }
 }
