@@ -21,16 +21,17 @@ public class MainApp {
 //        ch2.qns4.run();
 //        ch2.qns5.run();
 //        ch2.qns6.run();
-        ch2.qns7.run();
+//        ch2.qns7.run();
 //        ch2.qns8.run();
     }
 
     public static void runCh3() {
-        
+        ch3.qns2.run();
     }
 
     public static void main(String[] args) {
 //        runCh1();
-        runCh2();
+//        runCh2();
+        runCh3();
     }
 }
