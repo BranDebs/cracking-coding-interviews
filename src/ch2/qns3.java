@@ -25,15 +25,15 @@ public class qns3 {
         deleteMiddle(middle);
         System.out.println("After: ");
         LinkedListUtils.printList(head);
-        System.out.println("Answer should be 6 5 4 2 1.");
+        System.out.println("Answer should be 1 2 4 5 6.");
 
         System.out.println("=========================== ");
-
+        head = null;
         middle = null;
         head = new SinglyNode<Integer>(1, null);
         head = new SinglyNode<Integer>(1, head);
         head = new SinglyNode<Integer>(1, head);
-        head = middle;
+        middle = head;
         head = new SinglyNode<Integer>(1, head);
         head = new SinglyNode<Integer>(1, head);
         System.out.println("Before: ");
