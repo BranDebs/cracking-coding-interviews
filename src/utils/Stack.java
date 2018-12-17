@@ -43,4 +43,8 @@ public class Stack<T> {
         }
         return head.element;
     }
+
+    public boolean empty() {
+        return size == 0;
+    }
 }
