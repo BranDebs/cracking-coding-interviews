@@ -3,6 +3,13 @@ package ch2;
 import utils.LinkedListUtils;
 import utils.SinglyNode;
 
+/**
+ * Return Kth to Last:
+ * Implement an algorithm to find the kth to last element of a singly linked list.
+ *
+ * Time: O(N)
+ * Space: O(1)
+ */
 public class qns2 {
 
     private static SinglyNode<Integer> getKthToLast(SinglyNode<Integer> head, int k) {

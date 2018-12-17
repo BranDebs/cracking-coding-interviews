@@ -1,5 +1,13 @@
 package ch1;
 
+/**
+ * Rotate Matrix:
+ * Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes,
+ * write a method to rotate the image by 90 degrees. Can you do this in place?
+ *
+ * Time: O(N^2)
+ * Space: O(1)
+ */
 public class qns7 {
 
     private static int replaceCell(int [][] mtx, int res, int x ,int y) {

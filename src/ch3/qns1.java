@@ -1,7 +1,7 @@
 package ch3;
 
 /**
- * Three in one
+ * Three in one:
  *  Describe how you could use a single array to implement three stacks.
  *
  *  Parition the single array into 3 separate regions, A B and C.
