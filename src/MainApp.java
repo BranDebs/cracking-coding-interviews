@@ -17,11 +17,11 @@ public class MainApp {
     public static void runCh2() {
 //        ch2.qns1.run();
 //        ch2.qns2.run();
-          ch2.qns3.run();
+//          ch2.qns3.run();
 //        ch2.qns4.run();
 //        ch2.qns5.run();
 //        ch2.qns6.run();
-//        ch2.qns7.run();
+        ch2.qns7.run();
 //        ch2.qns8.run();
     }
 
