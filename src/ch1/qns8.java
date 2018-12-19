@@ -2,6 +2,14 @@ package ch1;
 
 import java.util.HashSet;
 
+/**
+ * Zero Matrix:
+ * Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
+ *
+ * Time: O(N^2)
+ * Space: O(N)
+ */
+
 public class qns8 {
     public static void run() {
         int[][] mtx = {{5,7,4,3}, {2,1,0,1}, {4,8,5,9},{9,0,5,4}};

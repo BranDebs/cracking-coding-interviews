@@ -5,6 +5,13 @@ import utils.SinglyNode;
 
 import java.util.Stack;
 
+/**
+ * Palindrome:
+ * Implement a function to check if a linked list is a palindrome.
+ *
+ * Time: O(N)
+ * Space: O(N)
+ */
 public class qns6 {
 
         private static boolean isPalindrome(SinglyNode<Integer> head) {
