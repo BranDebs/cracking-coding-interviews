@@ -9,7 +9,7 @@ package ch3;
  *
  */
 public class qns5 {
-    private static utils.Stack<Integer> stack;
+    private static utils.Stack<Integer> stack, stack2;
 
     private static utils.Stack<Integer> sortStack(utils.Stack<Integer> originalStack){
         utils.Stack<Integer> tempStack;
@@ -66,6 +66,30 @@ public class qns5 {
             System.out.print(sortedStack.pop() + " ");
         }
 
+
+        stack2 = new utils.Stack<>();
+
+        //Stack 1
+        stack2.push(-100);
+        stack2.push(2);
+        stack2.push(3);
+        stack2.push(4);
+        stack2.push(5);
+        stack2.push(6);
+        stack2.push(12);
+        stack2.push(4);
+        stack2.push(4);
+        stack2.push(4);
+
+
+        sortedStack = sortStack(stack2);
+        size = sortedStack.size();
+        System.out.println("RHS of the printed stack is the bottom");
+        System.out.println("Original Stack: 4 4 4 12 6 5 4 3 2 -100");
+        System.out.println("Final Stack: ");
+        for (int i=0; i<size; i++){
+            System.out.print(sortedStack.pop() + " ");
+        }
 
     }
 }
