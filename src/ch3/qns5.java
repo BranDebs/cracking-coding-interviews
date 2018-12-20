@@ -12,33 +12,39 @@ public class qns5 {
     private static utils.Stack<Integer> stack;
 
     private static utils.Stack<Integer> sortStack(utils.Stack<Integer> originalStack){
-        utils.Stack<Integer> tempStack, resultStack;
+        utils.Stack<Integer> tempStack;
         tempStack = new utils.Stack<>();
-        resultStack = new utils.Stack<>();
-
-        //originalStack = A, tempStack = B, resultStack = C
-        //Case 1: A.peek <= B.peek
-        int size = originalStack.size();
-        for(int i=0; i<size; i++) {
-            if (tempStack.empty() /*&& resultStack.empty() */) {
+        int temp;
+        int counter;
+        //originalStack = A, tempStack = B
+        while (!originalStack.empty()) {
+            if (tempStack.empty()){
                 tempStack.push(originalStack.pop());
             }
-            //tempStack contains stuff
-            else if (!tempStack.empty()){
-                if (originalStack.peek() < tempStack.peek()){
-                    if(resultStack.empty()){
-                        resultStack.push(tempStack.pop());
+            else if(originalStack.peek() <= tempStack.peek()){
+                tempStack.push(originalStack.pop());
+            }
+            else if(originalStack.peek() > tempStack.peek()){
+                counter = 0;
+                temp = originalStack.peek();
+                while(!tempStack.empty()){
+                    //transferring items from B to A
+                    if(tempStack.peek()<temp){
+                        originalStack.push(tempStack.pop());
+                        counter++;
                     }
-//                    else {
-//                        if(resultStack.peek())
-//                    }
+                    else {
+                        break;
+                    }
                 }
-                else if (originalStack.peek() >= tempStack.peek()){
-
+                tempStack.push(temp);
+                for (int i=0; i<counter; i++){
+                    tempStack.push(originalStack.pop());
                 }
+                originalStack.pop();
             }
         }
-
+        return tempStack;
     }
     public static void run() {
         stack = new utils.Stack<>();
@@ -52,7 +58,13 @@ public class qns5 {
         stack.push(5);
 
         utils.Stack<Integer> sortedStack = sortStack(stack);
-
+        int size = sortedStack.size();
+        System.out.println("RHS of the printed stack is the bottom");
+        System.out.println("Original Stack: 5 0 3 6 2 1");
+        System.out.println("Final Stack: ");
+        for (int i=0; i<size; i++){
+            System.out.print(sortedStack.pop() + " ");
+        }
 
 
     }
