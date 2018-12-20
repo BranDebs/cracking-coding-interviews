@@ -58,12 +58,6 @@ public class qns4 {
     public static void run() {
         MyQueue<Integer> queue = new MyQueue<Integer>();
         int[] arr = {8, 5, 4, 3, 2, 1};
-//        queue.offer(8);
-//        queue.offer(5);
-//        queue.offer(4);
-//        queue.offer(3);
-//        queue.offer(2);
-//        queue.offer(1);
 
         for (int i : arr) {
             queue.offer(i);
