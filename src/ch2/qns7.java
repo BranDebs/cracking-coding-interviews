@@ -1,6 +1,6 @@
 package ch2;
 
-import utils.SinglyNode;
+import utils.LinkedList.SinglyNode;
 
 /**
  * Intersection:

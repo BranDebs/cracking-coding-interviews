@@ -1,8 +1,7 @@
 package ch2;
 
-import org.omg.CORBA.INTERNAL;
-import utils.LinkedListUtils;
-import utils.SinglyNode;
+import utils.LinkedList.LinkedListUtils;
+import utils.LinkedList.SinglyNode;
 
 import java.util.HashSet;
 

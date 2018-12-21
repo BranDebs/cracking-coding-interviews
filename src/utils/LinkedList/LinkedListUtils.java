@@ -1,4 +1,4 @@
-package utils;
+package utils.LinkedList;
 
 public class LinkedListUtils {
     public static void printList(SinglyNode<?> head) {

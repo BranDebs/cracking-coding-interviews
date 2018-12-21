@@ -1,4 +1,4 @@
-package utils;
+package utils.LinkedList;
 
 public class SinglyNode<V> {
     public V element;
