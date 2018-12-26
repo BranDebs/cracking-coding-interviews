@@ -34,7 +34,7 @@ public class MainApp {
     }
 
     public static void runCh4() {
-
+        ch4.qns1.run();
     }
 
     public static void main(String[] args) {
