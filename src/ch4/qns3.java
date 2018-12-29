@@ -25,7 +25,7 @@ public class qns3 {
     }
 
     private static Digraph initTree2() {
-        Digraph tree2 = new Digraph(5);
+        Digraph tree2 = new Digraph(8);
         tree2.addEdge("1", "2");
         tree2.addEdge("1", "3");
         tree2.addEdge("2", "4");
@@ -50,14 +50,15 @@ public class qns3 {
             String currNode = queue.poll();
             visited.add(currNode);
             currLevel = level.get(currNode)+1;
-            for (String neighbour : tree.adj(root)){
-                if(!visited.contains(neighbour)){
-                    visited.add(neighbour);
-                    queue.add(neighbour);
-                    level.put(neighbour, currLevel);
+            if(tree.adj(currNode)!=null) {
+                for (String neighbour : tree.adj(currNode)) {
+                    if (!visited.contains(neighbour)) {
+                        visited.add(neighbour);
+                        queue.add(neighbour);
+                        level.put(neighbour, currLevel);
+                    }
                 }
             }
-
         }
 
         //currLevel represents the no. of linked lists we have
@@ -91,9 +92,10 @@ public class qns3 {
         Digraph tree1 = initTree1();
         Digraph tree2 = initTree2();
         ArrayList<LinkedList<String>> linkedLists1 = linkNodes("1", tree1);
-        int size = linkedLists1.size();
-        for(int i=0; i<size; i++) {
-            System.out.println(Arrays.toString(linkedLists1.toArray()));
-        }
+
+        System.out.println(Arrays.toString(linkedLists1.toArray()));
+
+        ArrayList<LinkedList<String>> linkedLists2 = linkNodes("1", tree2);
+        System.out.println(Arrays.toString(linkedLists2.toArray()));
     }
 }
