@@ -9,8 +9,11 @@ import java.util.Arrays;
  difference between the largest and the smallest integer is minimized in the new array.
  * Return the difference.
  *
+<<<<<<< HEAD
  * Time: O(N lg N)
  * Space: O(N)
+=======
+>>>>>>> c599b12e8a40d85f92864aae9c5bd5086e738bef
  */
 public class extra1 {
 
