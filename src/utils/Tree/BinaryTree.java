@@ -10,6 +10,10 @@ public class BinaryTree<T> {
         this.root = root;
     }
 
+    public BinaryTreeNode<T> getRoot() {
+        return this.root;
+    }
+
     public String getPostOrder() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.root.value).append(" ");
