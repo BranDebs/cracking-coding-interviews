@@ -42,10 +42,7 @@ public class qns4 {
         int leftCount = (int) node.left.value;
         int rightCount = (int) node.right.value;
         int diff = Math.abs(leftCount - rightCount);
-        if (diff > 1) {
-            return false;
-        }
-        return true;
+        return diff <= 1;
     }
 
     public static void run() {
