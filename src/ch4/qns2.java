@@ -8,15 +8,15 @@ import utils.Tree.BinaryTreeNode;
  * Given a sorted (increasing order) array with unique integer elements, write an algo-
  * rithm to create a binary search tree with minimal height.
  *
- * Time:
- * Space:
+ * Time: O(N)
+ * Space: O(N)
  */
 public class qns2 {
 
     /**
      * Traverses the array to construct the min binary tree
      * @param left left side boundary of the array
-     * @param right right side boundary of the array (inclusive(
+     * @param right right side boundary of the array is inclusive.
      * @return node if any
      */
     private static BinaryTreeNode<Integer> traverseArr(int[] arr, int left, int right) {
