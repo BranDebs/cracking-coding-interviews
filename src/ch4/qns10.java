@@ -10,8 +10,8 @@ import utils.Tree.BinaryTreeNode;
  * A tree T2 is a subtree ofTi if there exists a node n in Ti such that the subtree of n is identical to T2.
  * That is, if you cut off the tree at node n, the two trees would be identical.
  *
- * Time:
- * Space:
+ * Time: O(N)
+ * Space: O(1)
  */
 public class qns10 {
 
