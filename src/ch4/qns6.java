@@ -3,8 +3,15 @@ package ch4;
 import utils.Tree.BinaryTree;
 import utils.Tree.BinaryTreeNode;
 
+/**
+ * Successor
+ * Write an algorithm to find the "next" node (i.e., in-order successor) of a given node in a
+ * binary search tree. You may assume that each node has a link to its parent.
+ *
+ * Time: O(N)
+ * Space: O(1)
+ */
 public class qns6 {
-
     private static BinaryTreeNode<String> getSucessor(BinaryTree tree, String node) {
         return getSucessor(tree.getRoot(), node);
     }
