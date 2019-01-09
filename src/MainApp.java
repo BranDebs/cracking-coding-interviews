@@ -41,13 +41,18 @@ public class MainApp {
 //        ch4.qns4.run();
 //        ch4.qns6.run();
 //        ch4.qns8.run();
-        ch4.qns10.run();
+//        ch4.qns10.run();
+    }
+
+    public static void runCh5() {
+        ch5.qns1.run();
     }
 
     public static void main(String[] args) {
 //        runCh1();
 //        runCh2();
 //        runCh3();
-        runCh4();
+//        runCh4();
+        runCh5();
     }
 }
