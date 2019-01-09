@@ -46,7 +46,8 @@ public class MainApp {
 
     public static void runCh5() {
 //        ch5.qns1.run();
-        ch5.qns2.run();
+//        ch5.qns2.run();
+        ch5.qns3.run();
     }
 
     public static void main(String[] args) {
