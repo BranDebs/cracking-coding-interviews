@@ -69,5 +69,11 @@ public class qns4 {
         lowest = output[0];
         highest = output[1];
         System.out.println("Given the integer: " + n + " the lowest is: " + lowest + " the highest is: " + highest);
+
+        n = 2;
+        output = nextNumber(n);
+        lowest = output[0];
+        highest = output[1];
+        System.out.println("Given the integer: " + n + " the lowest is: " + lowest + " the highest is: " + highest);
     }
 }
