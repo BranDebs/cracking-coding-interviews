@@ -39,8 +39,9 @@ public class MainApp {
 //        ch4.qns2.run();
 //        ch4.qns3.run();
 //        ch4.qns4.run();
-        ch4.qns5.run();
+//        ch4.qns5.run();
 //        ch4.qns6.run();
+        ch4.qns7.run();
 //        ch4.qns8.run();
 //        ch4.qns10.run();
     }
