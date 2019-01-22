@@ -59,7 +59,8 @@ public class MainApp {
 
     public static void runCh8() {
 //        ch8.qns1.run();
-        ch8.qns2.run();
+//        ch8.qns2.run();
+        ch8.qns3.run();
     }
 
     public static void main(String[] args) {
