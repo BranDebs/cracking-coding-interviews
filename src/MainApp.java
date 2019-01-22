@@ -14,7 +14,8 @@ public class MainApp {
 //        ch1.qns9.run();
 //        ch1.extra1.run();
 //        ch1.extra2.run();
-        ch1.extra3.run();
+//        ch1.extra3.run();
+        ch1.extra4.run();
     }
 
     public static void runCh2() {
@@ -60,15 +61,15 @@ public class MainApp {
     public static void runCh8() {
 //        ch8.qns1.run();
 //        ch8.qns2.run();
-        ch8.qns3.run();
+//        ch8.qns3.run();
     }
 
     public static void main(String[] args) {
-//        runCh1();
+        runCh1();
 //        runCh2();
 //        runCh3();
 //        runCh4();
 //        runCh5();
-        runCh8();
+//        runCh8();
     }
 }
