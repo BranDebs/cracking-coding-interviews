@@ -1,6 +1,6 @@
 package ch6;
 
-public class qns6_1 {
+public class Qns6_1 {
   // Order each bottle as 1, 2, ..., 20.
   // For each numbered bottle, take out the pill associated to its assigned id.
   // Bottle id 1 will take out 1 pill, bottle id n will be n pill.

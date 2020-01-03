@@ -1,6 +1,6 @@
 package ch1;
 
-public class qns1_1 {
+public class Qns1_1 {
   public static boolean isUnique(String input) {
     // Assuming 26 english characters
     int[] charCounts = new int[256];

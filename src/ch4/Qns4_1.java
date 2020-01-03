@@ -5,7 +5,7 @@ import java.util.Deque;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class qns4_1 {
+public class Qns4_1 {
   private static boolean RouteBetweenNodes(Digraph G, String src, String dst) {
     if (G == null || src == null || dst == null) {
       return false;

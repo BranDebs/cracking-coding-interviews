@@ -1,6 +1,6 @@
 package ch5;
 
-public class qns5_1 {
+public class Qns5_1 {
   private static int solution(int N, int M, int i, int j) {
 
     System.out.printf("N %s\nM %s\n", Integer.toBinaryString(N), Integer.toBinaryString(M));

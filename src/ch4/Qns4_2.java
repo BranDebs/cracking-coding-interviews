@@ -2,7 +2,7 @@ package ch4;
 
 import utils.Tree.*;
 
-public class qns4_2 {
+public class Qns4_2 {
   private static BinaryTreeNode<Integer> MinimalTree(int[] nodesVal) {
     int left = 0;
     int right = nodesVal.length - 1;

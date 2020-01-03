@@ -4,7 +4,7 @@ import utils.LinkedList.SinglyNode;
 import utils.LinkedList.LinkedListUtils;
 import java.util.*;
 
-public class qns2_1 {
+public class Qns2_1 {
   public static SinglyNode<Integer> removeDups(SinglyNode<Integer> head) {
     HashMap<Integer, Integer> wordFreqs = new HashMap<>();
     SinglyNode<Integer> cur = head;

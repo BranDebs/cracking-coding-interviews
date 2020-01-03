@@ -2,7 +2,7 @@ package ch10;
 
 import java.util.Arrays;
 
-public class qns10_1 {
+public class Qns10_1 {
   private static int[] sortedMerge(int[] A, int[] B) {
     if (A.length <= 0) {
       throw new IllegalArgumentException();

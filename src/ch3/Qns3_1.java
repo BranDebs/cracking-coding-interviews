@@ -2,7 +2,7 @@ package ch3;
 
 import java.util.*;
 
-public class qns3_1 {
+public class Qns3_1 {
   private static class ThreeStack {
     private String[] elements;
     private int[] sizes;
