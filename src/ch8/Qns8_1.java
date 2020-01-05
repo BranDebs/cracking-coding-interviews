@@ -2,7 +2,7 @@ package ch8;
 
 import java.util.Arrays;
 
-public class qns8_1 {
+public class Qns8_1 {
   // N is the number of steps on a staircase
   private static int tripleStep(int N) {
     if (N < 0) {
